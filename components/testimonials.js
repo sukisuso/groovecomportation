@@ -6,49 +6,73 @@ import userOneImg from "../public/img/user1.jpg";
 import userTwoImg from "../public/img/user2.jpg";
 import userThreeImg from "../public/img/user3.jpg";
 
-const Testimonials  = () => {
+const Testimonials = () => {
   return (
     <Container>
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+            <p className="text-xl leading-normal ">
+              Conocido en el mundo festero <Mark>Ruben</Mark>
+              mezcla cualquier tipo de musica que se le ponga entre las manos
             </p>
 
             <Avatar
               image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
+              name="Ruben del Moral"
+              title="Sesiones mixtas"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+            <p className="text-xl leading-normal ">
+              Las sesiones max extremas y disfrutonas han sido siempre con <Mark>Jorge</Mark>
+              un genio y figura dentro del Hardtechno
             </p>
-
             <Avatar
               image={userTwoImg}
-              name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
+              name="Jorge Rubio"
+              title="Hardtechno"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve seen. I
-              would use this for anything.
+              Nuestro veterano <Mark>Vicente</Mark> curtido en mas de mil sesiones. Techno a punta pala
             </p>
 
             <Avatar
               image={userThreeImg}
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
+              name="Vicentekno Pitch"
+              title="Techno"
+            />
+          </div>
+        </div>
+        <div className="">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            <p className="text-2xl leading-normal ">
+              Nueva incorporación <Mark>La bestTia</Mark> dispuesta a cerrar todos los chapes
+            </p>
+
+            <Avatar
+              image={userThreeImg}
+              name="La bestTia"
+              title="Mix"
+            />
+          </div>
+        </div>
+        <div className="">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            <p className="text-2xl leading-normal ">
+              <Mark>Mikelon</Mark> no te va a dejar dormir con su techno diferencial
+            </p>
+
+            <Avatar
+              image={userThreeImg}
+              name="Mikelon"
+              title="Techno"
             />
           </div>
         </div>

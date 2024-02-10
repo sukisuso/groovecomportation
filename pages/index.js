@@ -3,14 +3,11 @@ import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 
-import { benefitOne, benefitTwo } from "../components/data";
+import { benefitTwo } from "../components/data";
 import Video from "../components/video";
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
-import Cta from "../components/cta";
-import Faq from "../components/faq";
-import PopupWidget from "../components/popupWidget";
 
 const Home = () => {
   return (
@@ -23,41 +20,52 @@ const Home = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Navbar />
-      <Hero />
-      <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
-      </SectionTitle>
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
-      <SectionTitle
-        pretitle="Watch a video"
-        title="Learn how to fullfil your needs">
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
-      </SectionTitle>
-      <Video />
-      <SectionTitle
-        pretitle="Testimonials"
-        title="Here's what our customers said">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
-      </SectionTitle>
+      <div id="groove">
+        <Hero />
+      </div>
+      <div id="nosotros" className="mt-32">
+        <SectionTitle
+          pretitle="Quienes formamos Groove Music Corporation?"
+          title="Nosotros">
+          ¡Únete a nuestra Comunidad de DJs Multidisciplinarios! Desde el vibrante ritmo del House, pasando por la energía del Techno hasta el contagioso sabor del Reggaetón, estamos aquí para hacer que cada momento sea inolvidable. Somos más que un grupo, somos una familia dedicada a facilitar la vida de aquellos que buscan disfrutar de la mejor música.
+        </SectionTitle>
+      </div>
+
       <Testimonials />
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
-      </SectionTitle>
-      <Faq />
-      <Cta />
+
+      <div id="productos" className="mt-32">
+        <SectionTitle
+          pretitle="Estás buscando algun disco o vinilo?"
+          title="Productos">
+          ¡Pronto tendrás acceso a una selección exclusiva de vinilos que están disponibles para la venta! Además, podrás disfrutar de nuestras sesiones más solicitadas, para ofrecerte una experiencia musical única.
+        </SectionTitle>
+      </div>
+      <Benefits imgPos="right" data={benefitTwo} />
+
+      <div id="contacto" className="mt-32">
+        <SectionTitle
+          pretitle="Necesitas algun Dj para tu evento?"
+          title="Contacto">
+          Si deseas contactar con nosotros no dudes en enviarnos un mail a:
+          <a href="mailto:groovemusiccorporation@hotmail.com" className="pl-1 underline text-blue-400 italic">groovemusiccorporation@hotmail.com</a>
+        </SectionTitle>
+      </div>
+      <Video />
+      <div id="contacto" className="mt-32">
+        <SectionTitle
+          pretitle="Un poquito de nosotros"
+        >
+          Groovemusic Corporation ®️
+          El 11 de enero de 2024, Resurge con su CEO Vicente Groove A.K.A Vicentekno Pitch, un apasionado de la música electrónica y el marketing, decide revivir el proyecto que inició en 2004. Esta vez, se enfoca en utilizar su vasta experiencia para ayudar, impulsar y lanzar a las nuevas generaciones de DJs y productores de música electrónica.
+
+          Si estás dando tus primeros pasos o llevas tiempo intentando alcanzar tus objetivos, en Groovemusic Corporation estamos aquí para ayudarte. No importa tu edad, nunca es tarde para perseguir tus sueños.
+
+          <br />
+          Bienvenid@s... comienza el camino.
+        </SectionTitle>
+      </div>
       <Footer />
-      <PopupWidget />
     </>
   );
 }

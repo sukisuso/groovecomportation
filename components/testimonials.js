@@ -13,13 +13,13 @@ const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-xl leading-normal ">
-              Conocido en el mundo festero <Mark>Ruben</Mark>
+              Conocido en el mundo festero <Mark>Rober</Mark>
               mezcla cualquier tipo de musica que se le ponga entre las manos
             </p>
 
             <Avatar
               image={userOneImg}
-              name="Ruben del Moral"
+              name="Rober del Moral"
               title="Sesiones mixtas"
             />
           </div>

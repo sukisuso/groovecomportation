@@ -2,6 +2,7 @@ import Head from "next/head";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
+import TrackVisibility from 'react-on-screen';
 
 import { benefitTwo } from "../components/data";
 import Video from "../components/video";
@@ -13,7 +14,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Groove Music Corporation</title>
+        <title>Groovemusic Corporation</title>
         <meta
           name="description"
           content="Nextly is a free landing page template built with next.js & Tailwind CSS"
@@ -26,7 +27,7 @@ const Home = () => {
       </div>
       <div id="nosotros" className="mt-32">
         <SectionTitle
-          pretitle="Quienes formamos Groove Music Corporation?"
+          pretitle="¿Quiénes formamos Groovemusic Corporation?"
           title="Nosotros">
           ¡Únete a nuestra Comunidad de DJs Multidisciplinarios! Desde el vibrante ritmo del House, pasando por la energía del Techno hasta el contagioso sabor del Reggaetón, estamos aquí para hacer que cada momento sea inolvidable. Somos más que un grupo, somos una familia dedicada a facilitar la vida de aquellos que buscan disfrutar de la mejor música.
         </SectionTitle>
@@ -36,16 +37,17 @@ const Home = () => {
 
       <div id="productos" className="mt-32">
         <SectionTitle
-          pretitle="Estás buscando algun disco o vinilo?"
+          pretitle="¿Estás buscando algun disco o vinilo?"
           title="Productos">
           ¡Pronto tendrás acceso a una selección exclusiva de vinilos que están disponibles para la venta! Además, podrás disfrutar de nuestras sesiones más solicitadas, para ofrecerte una experiencia musical única.
         </SectionTitle>
       </div>
       <Benefits imgPos="right" data={benefitTwo} />
 
+
       <div id="contacto" className="mt-32">
         <SectionTitle
-          pretitle="Necesitas algun Dj para tu evento?"
+          pretitle="¿Necesitas algun Dj para tu evento?"
           title="Contacto">
           Si deseas contactar con nosotros no dudes en enviarnos un mail a:
           <a href="mailto:groovemusiccorporation@hotmail.com" className="pl-1 underline text-blue-400 italic">groovemusiccorporation@hotmail.com</a>

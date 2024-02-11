@@ -23,14 +23,14 @@ const Navbar = () => {
                   <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <span>
                       <Image
-                        src="/img/logo-groove.jpeg"
+                        src="/img/logo-groove-2.jpeg"
                         alt="N"
-                        width="32"
-                        height="32"
-                        className="w-8"
+                        width="256"
+                        height="256"
+                        className="w-16"
                       />
                     </span>
-                    <span>Groove Music</span>
+                    <span>Groovemusic</span>
                   </span>
                 </Link>
 
@@ -72,7 +72,7 @@ const Navbar = () => {
         </Disclosure>
 
         {/* menu  */}
-        <div className="hidden text-center lg:flex lg:items-center">
+        <div className="hidden text-center lg:flex lg:items-center pr-16">
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
@@ -82,10 +82,6 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-        </div>
-
-        <div className="invisible mr-3 space-x-4 nav__item">
-          <ThemeChanger />
         </div>
       </nav>
     </div>

@@ -6,10 +6,10 @@ const Hero = () => {
   return (
     <>
       <Container className="flex flex-wrap ">
-        <div className="flex items-center w-full lg:w-1/2">
+        <div className="flex items-center w-full lg:w-1/2 animate-fade animate-once animate-duration-[1600ms] animate-delay-300">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              Groove Music Corporation
+              Groovemusic Corporation
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               ¡Eleva tu Experiencia DJ al Siguiente Nivel! Encuentra Vinilos Exclusivos, Conecta con Coleccionistas, y Contrata Actuaciones Inolvidables para tus Eventos. Descubre, Compra, y Vende Vinilos mientras Gestionas tus Contrataciones de Actuaciones en un Solo Lugar. ¡Bienvenido a la Plataforma Definitiva para DJs y Organizadores de Eventos!
@@ -19,7 +19,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="">
+          <div className="animate-fade-left animate-once animate-duration-[1600ms] animate-delay-300">
             <Image
               src={heroImg}
               width="616"

@@ -13,13 +13,13 @@ export default function Footer() {
               {" "}
               <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                 <Image
-                  src="/img/logo-groove.jpeg"
+                  src="/img/logo-groove-2.jpeg"
                   alt="N"
-                  width="46"
-                  height="46"
-                  className="w-8"
+                  width="256"
+                  height="256"
+                  className="w-16"
                 />
-                <span>Groove Music</span>
+                <span>Groovemusic</span>
               </Link>
             </div>
           </div>

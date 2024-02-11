@@ -11,10 +11,10 @@ const Testimonials = () => {
     <Container>
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800 hover:dark:bg-trueGray-600 hover:shadow-2xl hover:opacity-70 hover:border-white hover:border">
             <p className="text-xl leading-normal ">
               Conocido en el mundo festero <Mark>Rober</Mark>
-              mezcla cualquier tipo de musica que se le ponga entre las manos
+              mezcla cualquier tipo de música que se le ponga entre las manos
             </p>
 
             <Avatar
@@ -25,7 +25,7 @@ const Testimonials = () => {
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800 hover:dark:bg-trueGray-600 hover:shadow-2xl hover:opacity-70 hover:border-white hover:border">
             <p className="text-xl leading-normal ">
               Las sesiones max extremas y disfrutonas han sido siempre con <Mark>Jorge</Mark>
               un genio y figura dentro del Hardtechno
@@ -38,8 +38,8 @@ const Testimonials = () => {
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800 hover:dark:bg-trueGray-600 hover:shadow-2xl hover:opacity-70 hover:border-white hover:border">
+            <p className="text-xl leading-normal ">
               Nuestro veterano <Mark>Vicente</Mark> curtido en mas de mil sesiones. Techno a punta pala
             </p>
 
@@ -51,21 +51,21 @@ const Testimonials = () => {
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Nueva incorporación <Mark>La bestTia</Mark> dispuesta a cerrar todos los chapes
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800 hover:dark:bg-trueGray-600 hover:shadow-2xl hover:opacity-70 hover:border-white hover:border">
+            <p className="text-xl leading-normal ">
+              Nueva incorporación <Mark>Dj Gatx</Mark> preparada para terminar todas las noches
             </p>
 
             <Avatar
               image={userThreeImg}
-              name="La bestTia"
+              name="Dj Gatx"
               title="Mix"
             />
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800 hover:dark:bg-trueGray-600 hover:shadow-2xl hover:opacity-70 hover:border-white hover:border">
+            <p className="text-xl leading-normal ">
               <Mark>Mikelon</Mark> no te va a dejar dormir con su techno diferencial
             </p>
 

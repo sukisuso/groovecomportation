@@ -60,7 +60,7 @@ const Home = () => {
         <SectionTitle
           pretitle="¿Quieres ayudar con el proyecto?"
           title="Colaboradores">
-          Estamos abiertos a colaboraciones con individuos y empresas interesadas en promover sus productos o servicios a través de nuestra plataforma. Ofrecemos oportunidades de colaboración a cambio de publicidad y visibilidad para su marca.
+          Estamos abiertos a colaboraciones con empresas interesadas en promover sus productos o servicios a través de nuestra plataforma. Ofrecemos oportunidades de colaboración a cambio de publicidad y visibilidad para su marca.
         </SectionTitle>
       </div>
       <Colaborators />

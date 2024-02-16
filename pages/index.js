@@ -9,6 +9,7 @@ import Video from "../components/video";
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
+import Colaborators from "../components/colaborators";
 
 const Home = () => {
   return (
@@ -54,7 +55,17 @@ const Home = () => {
         </SectionTitle>
       </div>
       <Video />
-      <div id="contacto" className="mt-32">
+
+      <div id="colaboradores" className="mt-32">
+        <SectionTitle
+          pretitle="¿Quieres ayudar con el proyecto?"
+          title="Colaboradores">
+          Estamos abiertos a colaboraciones con individuos y empresas interesadas en promover sus productos o servicios a través de nuestra plataforma. Ofrecemos oportunidades de colaboración a cambio de publicidad y visibilidad para su marca.
+        </SectionTitle>
+      </div>
+      <Colaborators />
+
+      <div className="mt-32">
         <SectionTitle
           pretitle="Un poquito de nosotros"
         >

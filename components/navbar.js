@@ -9,6 +9,7 @@ const Navbar = () => {
     "nosotros",
     "productos",
     "contacto",
+    "colaboradores"
   ];
 
   return (

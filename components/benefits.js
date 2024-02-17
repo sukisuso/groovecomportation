@@ -1,16 +1,34 @@
 import Image from "next/image";
+import { useInView, animated } from "@react-spring/web";
 import React from "react";
 import Container from "./container";
 
 const Benefits = (props) => {
   const { data } = props;
+  const [ref, inView] = useInView(
+    () => ({
+      from: {
+        opacity: 0,
+        y: 100,
+      },
+      to: {
+        opacity: 1,
+        y: 0,
+      },
+    }),
+    {
+      once: true,
+      rootMargin: '-40% 0%',
+    }
+  );
+
   return (
     <>
       <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
         <div
           className={`flex items-center justify-center w-full lg:w-1/2  animate-fade-left animate-ease-in animate-once animate-duration-[2000ms] animate-delay-300  ${props.imgPos === "right" ? "lg:order-1" : ""
             }`}>
-          <div>
+          <animated.div ref={ref} style={inView}>
             <Image
               src={data.image}
               width="521"
@@ -20,7 +38,7 @@ const Benefits = (props) => {
               placeholder="blur"
               blurDataURL={data.image.src}
             />
-          </div>
+          </animated.div>
         </div>
 
         <div
@@ -51,7 +69,7 @@ const Benefits = (props) => {
             </div>
           </div>
         </div>
-      </Container>
+      </Container >
 
 
     </>

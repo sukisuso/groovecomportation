@@ -2,7 +2,6 @@ import Head from "next/head";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
-import TrackVisibility from 'react-on-screen';
 
 import { benefitTwo } from "../components/data";
 import Video from "../components/video";
@@ -60,14 +59,13 @@ const Home = () => {
         <SectionTitle
           pretitle="¿Quieres ayudar con el proyecto?"
           title="Colaboradores">
-          Estamos abiertos a colaboraciones con empresas interesadas en promover sus productos o servicios a través de nuestra plataforma. Ofrecemos oportunidades de colaboración a cambio de publicidad y visibilidad para su marca.
         </SectionTitle>
       </div>
       <Colaborators />
 
       <div className="mt-32">
         <SectionTitle
-          pretitle="Un poquito de nosotros"
+          pretitle="Trayectoria"
         >
           Groovemusic Corporation ®️
           El 11 de enero de 2024, Resurge con su CEO Vicente Groove A.K.A Vicentekno Pitch, un apasionado de la música electrónica y el marketing, decide revivir el proyecto que inició en 2004. Esta vez, se enfoca en utilizar su vasta experiencia para ayudar, impulsar y lanzar a las nuevas generaciones de DJs y productores de música electrónica.

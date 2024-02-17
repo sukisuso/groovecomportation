@@ -65,7 +65,7 @@ const Home = () => {
 
       <div className="mt-32">
         <SectionTitle
-          pretitle="Trayectoria"
+          pretitle="Un poquito de nosotros"
         >
           Groovemusic Corporation ®️
           El 11 de enero de 2024, Resurge con su CEO Vicente Groove A.K.A Vicentekno Pitch, un apasionado de la música electrónica y el marketing, decide revivir el proyecto que inició en 2004. Esta vez, se enfoca en utilizar su vasta experiencia para ayudar, impulsar y lanzar a las nuevas generaciones de DJs y productores de música electrónica.

@@ -4,13 +4,13 @@ import Container from "./container";
 
 import Maps from "../public/img/brands/Google_Maps_pin.svg";
 import Mariotti from "../public/img/colaborators/mariotti.png";
+import Rosello from "../public/img/colaborators/rosello.jpeg"
 
 
 const Testimonials = () => {
   return (
     <Container>
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
-        <div className="lg:col-span-2 xl:col-auto" />
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-8 rounded-2xl py-6 dark:bg-trueGray-800 hover:dark:bg-trueGray-600 hover:shadow-2xl hover:opacity-70 hover:border-white hover:border">
             <a
@@ -54,6 +54,18 @@ const Testimonials = () => {
               </a>
             </div>
 
+          </div>
+        </div>
+        <div className="lg:col-span-2 xl:col-auto">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-8 rounded-2xl py-6 dark:bg-trueGray-800 hover:dark:bg-trueGray-600 hover:shadow-2xl hover:opacity-70 hover:border-white hover:border">
+            <Image
+              src={Rosello}
+              width="250"
+              height="250"
+              alt="colaborators-mariotti"
+              placeholder="blur"
+              className="mx-auto"
+            />
           </div>
         </div>
       </div>

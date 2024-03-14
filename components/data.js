@@ -6,6 +6,7 @@ import {
   AdjustmentsVerticalIcon,
   MusicalNoteIcon,
   SunIcon,
+  ForwardIcon
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../public/img/benefit-one.png";
@@ -36,7 +37,7 @@ const benefitOne = {
 
 const benefitTwo = {
   title: "Productos destacados",
-  desc: "Sumérgete en nuestra exclusiva selección de vinilos destacados, cuidadosamente elegidos para ofrecerte lo mejor en calidad de sonido, arte de portada y rareza. ",
+  desc: "Aqui tienes el acceso a una selección de discos de Vinilo... Rarezas....y otros productos relacionados. Solo para auténticos melómanos. ",
   image: benefitTwoImg,
   bullets: [
     {
@@ -48,6 +49,11 @@ const benefitTwo = {
       title: "Disponibles en ebay",
       desc: "Si estás interesado <a style='color: blue;text-decoration: underline;font-weight: 900;cursor: pointer;' href='https://www.ebay.es/usr/groovemusicrecords' target='_blank'>Visitanos</a>",
       icon: <AdjustmentsVerticalIcon />,
+    },
+    {
+      title: "Redes sociales",
+      desc: "Visitanos en Facebook <a style='color: blue;text-decoration: underline;font-weight: 900;cursor: pointer;' href='https://www.facebook.com/GroovemusicRecords' target='_blank'>acceder</a>",
+      icon: <ForwardIcon />,
     },
   ],
 };
